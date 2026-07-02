@@ -1,0 +1,47 @@
+[
+  {
+    "id": "uvod-u-hanefijski-fikh",
+    "title": "Uvod u hanefijski fikh — historijat i metodologija",
+    "lecturer": "dr. Tarik Mulahalilović",
+    "duration": "42:18",
+    "date": "2026-05-11",
+    "series": "Uvod u fikh",
+    "featured": true
+  },
+  {
+    "id": "namaski-propisi-1",
+    "title": "Namaski propisi kroz hanefijsku prizmu — 1. dio",
+    "lecturer": "hfz. Amina Spahić",
+    "duration": "36:05",
+    "date": "2026-04-27",
+    "series": "Ibadet",
+    "featured": false
+  },
+  {
+    "id": "ebu-hanife-zivot",
+    "title": "Ebu Hanife — život posvećen znanju",
+    "lecturer": "mr. Emin Karahodžić",
+    "duration": "51:40",
+    "date": "2026-04-06",
+    "series": "Ličnosti",
+    "featured": false
+  },
+  {
+    "id": "kijas-i-istihsan",
+    "title": "Kijas i istihsan: kako mezheb izvodi propise",
+    "lecturer": "dr. Tarik Mulahalilović",
+    "duration": "38:27",
+    "date": "2026-03-15",
+    "series": "Uvod u fikh",
+    "featured": false
+  },
+  {
+    "id": "ramazan-pitanja-odgovori",
+    "title": "Pitanja i odgovori: ramazan i post",
+    "lecturer": "hfz. Amina Spahić",
+    "duration": "44:52",
+    "date": "2026-02-20",
+    "series": "Pitanja i odgovori",
+    "featured": false
+  }
+]

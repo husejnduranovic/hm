@@ -1,0 +1,100 @@
+{
+  "intro": [
+    "Hanefijski mezheb (arap. *el-mezhebu-l-hanefi*) najstarija je od četiri priznate pravne škole ehli-sunneta ve-l-džemata. Ime nosi po imamu **Ebu Hanifi, Nu'manu ibn Sabitu** (699–767), učenjaku iz Kufe čiji je kružok okupljao desetine pravnika i postavio temelje sistematskog izvođenja šerijatskih propisa.",
+    "Osobenost hanefijske škole jeste ravnoteža između **predaje i razuma**: propisi se izvode iz Kur'ana i vjerodostojnog sunneta, ali uz pomno razrađenu metodologiju — analogiju (*kijas*), pravnu preferenciju (*istihsan*) i uvažavanje običaja (*urf*). Zato je mezheb kroz historiju pokazivao izuzetnu sposobnost da odgovori na potrebe različitih vremena i podneblja.",
+    "Danas hanefijski mezheb slijedi približno trećina muslimana svijeta — od Balkana i Turske, preko Centralne Azije, do Indijskog potkontinenta. U Bosni i Hercegovini on je stoljećima okvir vjerske prakse, a Islamska zajednica ga primjenjuje u ibadetskim pitanjima i vjerskom obrazovanju."
+  ],
+  "facts": [
+    { "label": "Utemeljitelj", "value": "Ebu Hanife, Nu'man ibn Sabit" },
+    { "label": "Period", "value": "699–767. (80–150. h.)" },
+    { "label": "Mjesto nastanka", "value": "Kufa, Irak" },
+    { "label": "Ključna djela", "value": "El-Mebsut, El-Hidaje, Zahiru-r-rivaje" },
+    { "label": "Rasprostranjenost", "value": "Balkan, Turska, Centralna Azija, Indijski potkontinent" },
+    { "label": "Sljedbenici", "value": "≈ trećina muslimana svijeta" }
+  ],
+  "principles": [
+    {
+      "title": "Kur'an",
+      "text": "Objava je prvi i neprikosnoveni izvor: svaki propis prvo se traži u kur'anskom tekstu i njegovim jasnim značenjima."
+    },
+    {
+      "title": "Sunnet",
+      "text": "Vjerodostojna praksa Allahovog Poslanika, s posebnom pažnjom na pouzdanost prenosilaca i usklađenost s općim načelima."
+    },
+    {
+      "title": "Idžma'",
+      "text": "Konsenzus učenjaka ummeta — kada se generacije pravnika saglase, njihova saglasnost postaje obavezujući dokaz."
+    },
+    {
+      "title": "Kijas",
+      "text": "Analogija: propis poznatog slučaja prenosi se na novi slučaj kada dijele isti pravni razlog (illet)."
+    },
+    {
+      "title": "Istihsan",
+      "text": "Pravna preferencija — odstupanje od krute analogije kada bi ona vodila teškoći ili nepravdi. Pečat hanefijske profinjenosti."
+    },
+    {
+      "title": "Urf",
+      "text": "Običaj zajednice koji nije u sukobu sa šerijatom uvažava se pri oblikovanju propisa, naročito u trgovini i svakodnevici."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "699.",
+      "title": "Rođenje u Kufi",
+      "text": "U trgovačkoj porodici perzijskog porijekla rođen je Nu'man ibn Sabit, budući Ebu Hanife."
+    },
+    {
+      "year": "~720.",
+      "title": "Kružok znanja",
+      "text": "Nakon susreta s učenjakom Ša'bijem, mladi trgovac se posvećuje nauci i osamnaest godina uči pred Hammadom ibn Ebi Sulejmanom."
+    },
+    {
+      "year": "767.",
+      "title": "Smrt imama",
+      "text": "Ebu Hanife umire u Bagdadu, ostavivši generaciju učenika koji će njegovu metodu pretočiti u školu."
+    },
+    {
+      "year": "782.",
+      "title": "Ebu Jusuf — vrhovni kadija",
+      "text": "Halifa Harun er-Rešid postavlja Ebu Jusufa za vrhovnog kadiju Abasijskog hilafeta; mezheb postaje sudska praksa carstva."
+    },
+    {
+      "year": "805.",
+      "title": "Zapisani mezheb",
+      "text": "Muhammed eš-Šejbani umire ostavivši šest knjiga (Zahiru-r-rivaje) — pisani temelj mezheba koji se izučava do danas."
+    },
+    {
+      "year": "1463.",
+      "title": "Dolazak u Bosnu",
+      "text": "S Osmanlijama hanefijski mezheb postaje pravni okvir vjerskog života Bosne: medrese, muftijstva i vakufi grade se na njegovoj tradiciji."
+    },
+    {
+      "year": "danas",
+      "title": "Živa tradicija",
+      "text": "Islamska zajednica u Bosni i Hercegovini primjenjuje hanefijski mezheb u ibadetu i obrazovanju — tradicija duga trinaest stoljeća i dalje živi."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Šta uopće znači „mezheb“?",
+      "a": "Mezheb doslovno znači „put“ ili „pravac“. U islamskom pravu to je zaokružena metodologija izvođenja propisa iz Kur'ana i sunneta, sa školom učenjaka koja tu metodologiju stoljećima razvija i provjerava. Mezheb nije nova vjera niti sekta — to je način stručnog razumijevanja vjerskih izvora."
+    },
+    {
+      "q": "Moram li slijediti jedan mezheb?",
+      "a": "Onaj ko nije sposoban samostalno izvoditi propise iz izvora (a to je ogromna većina ljudi) slijedi one koji jesu — kao što u medicini slijedimo ljekare. Slijeđenje jednog mezheba donosi dosljednost i čuva od proizvoljnog biranja olakšica. U Bosni i Hercegovini to je tradicionalno hanefijski mezheb."
+    },
+    {
+      "q": "Šta ako hadis „proturječi“ stavu mezheba?",
+      "a": "Utemeljitelji mezheba poznavali su hadise bolje od nas. Kada se čini da neki hadis proturječi stavu škole, obično je riječ o hadisu koji je derogiran, specifičan, drugačije razumljen ili slabijeg lanca od dokaza kojim se škola služi. Zato se ovakva pitanja prepuštaju učenjacima, a ne rješavaju na brzinu."
+    },
+    {
+      "q": "Zašto se u Bosni slijedi baš hanefijski mezheb?",
+      "a": "Islam je u Bosnu došao posredstvom Osmanske države, koja je u sudstvu i obrazovanju primjenjivala hanefijski mezheb. Pet stoljeća medresa, džamija i vakufa izgradilo je jednoobraznu praksu — a jednoobraznost u zajedničkom ibadetu čuva red i jedinstvo džemata."
+    },
+    {
+      "q": "Mogu li u pojedinim pitanjima uzeti stav drugog mezheba?",
+      "a": "Klasična ulema dopušta da se u pojedinačnom pitanju, iz opravdane potrebe, slijedi stav druge priznate škole — ali ne „skupljanjem olakšica“ po vlastitom nahođenju. Za takve situacije najbolje je pitati učene, jer oni znaju uslove pod kojima je to ispravno."
+    }
+  ]
+}

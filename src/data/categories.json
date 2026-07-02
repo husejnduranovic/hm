@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "ibadet",
+    "name": "Ibadet",
+    "description": "Namaz, post, čistoća i ostali propisi svakodnevnog ibadeta.",
+    "icon": "moon",
+    "color": "#b8933b",
+    "colorDeep": "#7d621c"
+  },
+  {
+    "slug": "usul",
+    "name": "Usul-i fikh",
+    "description": "Metodologija mezheba: izvori, kijas, istihsan i pravila izvođenja propisa.",
+    "icon": "scale",
+    "color": "#1b6e52",
+    "colorDeep": "#0e4534"
+  },
+  {
+    "slug": "licnosti",
+    "name": "Ličnosti",
+    "description": "Ebu Hanife, njegovi učenici i velikani koji su pronosili mezheb.",
+    "icon": "users",
+    "color": "#a65b3b",
+    "colorDeep": "#7a3e26"
+  },
+  {
+    "slug": "historija",
+    "name": "Historija",
+    "description": "Put mezheba od Kufe do Bosne — države, institucije i stoljeća.",
+    "icon": "landmark",
+    "color": "#3e6b8c",
+    "colorDeep": "#2c4d66"
+  },
+  {
+    "slug": "savremena-pitanja",
+    "name": "Savremena pitanja",
+    "description": "Novi izazovi — finansije, medicina, tehnologija — kroz hanefijski metod.",
+    "icon": "compass",
+    "color": "#7d4a66",
+    "colorDeep": "#5c3349"
+  },
+  {
+    "slug": "fetve",
+    "name": "Fetve i odgovori",
+    "description": "Kratki i jasni odgovori na česta pitanja iz svakodnevne prakse.",
+    "icon": "messages",
+    "color": "#6e8a5e",
+    "colorDeep": "#4d6741"
+  }
+]

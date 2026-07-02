@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "pocetna": "Početna",
+    "tekstovi": "Tekstovi",
+    "video": "Video",
+    "oMezhebu": "O mezhebu",
+    "pretraga": "Pretraga",
+    "otvoriMeni": "Otvori meni",
+    "zatvoriMeni": "Zatvori meni",
+    "skipToContent": "Preskoči na sadržaj",
+    "menuCategories": "Tematske cjeline"
+  },
+  "hero": {
+    "kicker": "Islamska pravna tradicija",
+    "titleA": "Znanje koje spaja",
+    "titleEm": "razum i predaju",
+    "lede": "Hanefijski mezheb stoljećima oblikuje vjerski život muslimana Bosne i Hercegovine. Na jednom mjestu donosimo provjerene tekstove, video predavanja i odgovore na savremena pitanja — jasno, pouzdano i na bosanskom jeziku.",
+    "ctaPrimary": "Istražite tekstove",
+    "ctaSecondary": "O mezhebu",
+    "featuredLabel": "Izdvojeni tekst"
+  },
+  "stats": {
+    "textOne": "stručni tekst",
+    "textFew": "stručna teksta",
+    "textMany": "stručnih tekstova",
+    "catOne": "tematska cjelina",
+    "catFew": "tematske cjeline",
+    "catMany": "tematskih cjelina",
+    "videoOne": "video predavanje",
+    "videoFew": "video predavanja",
+    "videoMany": "video predavanja"
+  },
+  "sections": {
+    "featuredKicker": "Iz biblioteke",
+    "featuredTitle": "Izdvojeni tekstovi",
+    "featuredDesc": "Pažljivo odabrani tekstovi za one koji žele dublje razumjeti hanefijsku pravnu školu.",
+    "categoriesKicker": "Pregled po temama",
+    "categoriesTitle": "Tematske cjeline",
+    "categoriesDesc": "Od temelja ibadeta do savremenih pitanja — pronađite tekstove prema oblasti koja vas zanima.",
+    "latestKicker": "Najnovije",
+    "latestTitle": "Najnoviji tekstovi",
+    "viewAll": "Svi tekstovi",
+    "videoKicker": "Gledajte i učite",
+    "videoTitle": "Video predavanja",
+    "videoDesc": "Predavanja i dersovi naših saradnika — video biblioteka u pripremi.",
+    "videoCta": "Sva predavanja",
+    "aboutKicker": "O mezhebu",
+    "aboutTitle": "Škola znanja stara trinaest stoljeća",
+    "aboutText1": "Hanefijski mezheb najstarija je od četiri pravne škole ehli-sunneta. Utemeljen na Kur'anu i sunnetu, a razrađen znanjem imama Ebu Hanife i njegovih učenika, stoljećima je pravni okvir vjerskog života muslimana — od Kufe i Bagdada, preko Istanbula, do Sarajeva.",
+    "aboutText2": "Na ovim stranicama objavljujemo tekstove utemeljene na klasičnim djelima mezheba, pisane jasnim jezikom i namijenjene svakom čitaocu — od početnika do imama.",
+    "aboutCta": "Saznajte više o mezhebu"
+  },
+  "quote": {
+    "text": "Fikh je da čovjek spozna ono što mu pripada i ono što ga obavezuje.",
+    "author": "Ebu Hanife (699–767)"
+  },
+  "search": {
+    "title": "Pretraga",
+    "placeholder": "Pretražite tekstove…",
+    "hint": "Upišite pojam — npr. namaz, zekat, Ebu Hanife…",
+    "empty": "Nema rezultata za",
+    "emptyHint": "Pokušajte s drugim pojmom ili pregledajte sve tekstove.",
+    "viewAll": "Pogledajte sve tekstove",
+    "navigate": "kretanje",
+    "open": "otvori",
+    "close": "Zatvori"
+  },
+  "listing": {
+    "kicker": "Biblioteka",
+    "title": "Tekstovi",
+    "desc": "Svi objavljeni tekstovi na jednom mjestu — pretražujte po pojmu ili filtrirajte po tematskoj cjelini.",
+    "searchLabel": "Pretraga tekstova",
+    "all": "Sve",
+    "reset": "Poništi filtere",
+    "emptyTitle": "Nema rezultata",
+    "emptyText": "Nismo pronašli nijedan tekst koji odgovara vašem upitu.",
+    "resultOne": "Pronađen {n} tekst",
+    "resultFew": "Pronađena {n} teksta",
+    "resultMany": "Pronađeno {n} tekstova"
+  },
+  "article": {
+    "authorLabel": "Autor",
+    "readingTime": "{n} min čitanja",
+    "commentOne": "{n} komentar",
+    "commentFew": "{n} komentara",
+    "commentMany": "{n} komentara",
+    "toc": "Sadržaj",
+    "share": "Podijelite tekst",
+    "copyLink": "Kopiraj vezu",
+    "copied": "Kopirano!",
+    "relatedKicker": "Nastavite čitati",
+    "related": "Povezani tekstovi",
+    "prev": "Prethodni tekst",
+    "next": "Sljedeći tekst",
+    "tagsLabel": "Oznake",
+    "authorBioFallback": "Saradnik redakcije i autor tekstova iz oblasti hanefijskog fikha."
+  },
+  "comments": {
+    "title": "Komentari",
+    "empty": "Još nema komentara. Budite prvi koji će podijeliti mišljenje.",
+    "formTitle": "Ostavite komentar",
+    "note": "Komentari se objavljuju nakon pregleda uredništva. Vaša e-mail adresa neće biti objavljena.",
+    "name": "Vaše ime",
+    "email": "E-mail adresa",
+    "message": "Vaš komentar",
+    "submit": "Objavi komentar",
+    "submitting": "Šaljemo…",
+    "success": "Hvala! Vaš komentar je zaprimljen i bit će objavljen nakon pregleda.",
+    "pending": "Čeka odobrenje",
+    "reply": "Odgovori",
+    "replyingTo": "Odgovarate na komentar — {name}",
+    "cancel": "Poništi",
+    "staff": "Uredništvo"
+  },
+  "video": {
+    "pageKicker": "Videoteka",
+    "pageTitle": "Video predavanja",
+    "pageDesc": "Dersovi i predavanja iz hanefijskog fikha. Snimci će biti dostupni u punoj verziji stranice — u nastavku je pregled planiranog sadržaja.",
+    "soonTitle": "Snimak uskoro",
+    "soonText": "Video sadržaj bit će dostupan u punoj verziji stranice.",
+    "back": "Nazad na pregled",
+    "more": "Ostala predavanja",
+    "featured": "Izdvojeno predavanje",
+    "series": "Serijal"
+  },
+  "newsletter": {
+    "kicker": "Bilten",
+    "title": "Novi tekstovi u vašem sandučetu",
+    "desc": "Prijavite se na bilten i obavijestit ćemo vas o svakom novom tekstu i predavanju.",
+    "placeholder": "Vaša e-mail adresa",
+    "button": "Prijavite se",
+    "success": "Hvala na prijavi! Potvrdu ćete dobiti e-mailom.",
+    "privacy": "Bez neželjene pošte — odjava jednim klikom."
+  },
+  "footer": {
+    "desc": "Stranica posvećena proučavanju hanefijskog mezheba: tekstovi, predavanja i odgovori utemeljeni na provjerenim izvorima islamske pravne tradicije.",
+    "nav": "Navigacija",
+    "categories": "Tematske cjeline",
+    "contact": "Kontakt",
+    "rights": "Sva prava zadržana.",
+    "privacy": "Politika privatnosti",
+    "terms": "Uslovi korištenja",
+    "location": "Sarajevo, Bosna i Hercegovina",
+    "madeWith": "Pripremljeno s pažnjom — o hanefijskoj tradiciji, na bosanskom jeziku."
+  },
+  "notFound": {
+    "kicker": "Greška 404",
+    "title": "Stranica nije pronađena",
+    "text": "Stranica koju tražite možda je premještena ili više ne postoji. Vratite se na početnu ili pregledajte tekstove.",
+    "cta": "Nazad na početnu",
+    "ctaSearch": "Pregledaj tekstove"
+  },
+  "aboutPage": {
+    "kicker": "O mezhebu",
+    "title": "Šta je hanefijski mezheb?",
+    "factsTitle": "Ukratko",
+    "principlesKicker": "Metodologija",
+    "principlesTitle": "Izvori i metod mezheba",
+    "principlesDesc": "Hanefijska pravna škola propise izvodi iz jasno poredanih izvora — od Objave do običaja zajednice.",
+    "timelineKicker": "Kroz stoljeća",
+    "timelineTitle": "Kratka historija mezheba",
+    "faqKicker": "Pitanja",
+    "faqTitle": "Često postavljana pitanja",
+    "ctaTitle": "Spremni za čitanje?",
+    "ctaText": "Pregledajte biblioteku tekstova i pronađite temu koja vas zanima.",
+    "ctaButton": "Otvori biblioteku"
+  },
+  "common": {
+    "readArticle": "Pročitaj tekst"
+  }
+}

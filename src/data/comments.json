@@ -1,0 +1,82 @@
+{
+  "namaz-po-hanefijskom-mezhebu": [
+    {
+      "id": "c1",
+      "author": "Amar Hadžić",
+      "date": "2026-06-18",
+      "text": "Es-selamu alejkum! Konačno tekst koji jasno razdvaja farzove od vadžiba — upravo ono što sam tražio. Da li planirate i nastavak o namazu putnika?",
+      "replies": [
+        {
+          "id": "c1r1",
+          "author": "Redakcija",
+          "isStaff": true,
+          "date": "2026-06-19",
+          "text": "Alejkumus-selam! Hvala na lijepim riječima. Tekst o namazu putnika (misafira) je u pripremi i bit će objavljen uskoro, inšallah."
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "author": "Emina Softić",
+      "date": "2026-06-21",
+      "text": "Mašallah, vrlo pregledno. Posebno mi je koristan dio o sehvi-sedždi — u mekteba smo to učili davno pa je red bio da obnovim znanje.",
+      "replies": []
+    },
+    {
+      "id": "c3",
+      "author": "Tarik Begović",
+      "date": "2026-06-25",
+      "text": "Imam pitanje: kako se po hanefijskom mezhebu gleda na spajanje namaza na putovanju? Kod nas u džematu o tome ima raznih mišljenja.",
+      "replies": []
+    }
+  ],
+  "ebu-hanife-zivot-i-djelo": [
+    {
+      "id": "c4",
+      "author": "Lejla Karić",
+      "date": "2026-05-24",
+      "text": "Prelijep tekst. Dio o tome kako je Imam odbio položaj kadije i ostao dosljedan sebi — to bi svaki student trebao pročitati.",
+      "replies": []
+    },
+    {
+      "id": "c5",
+      "author": "Haris Duraković",
+      "date": "2026-05-29",
+      "text": "Selam, ima li preporuka za literaturu o Ebu Hanifi na bosanskom jeziku? Volio bih produbiti ovo što sam ovdje pročitao.",
+      "replies": [
+        {
+          "id": "c5r1",
+          "author": "Redakcija",
+          "isStaff": true,
+          "date": "2026-05-30",
+          "text": "Selam! Na kraju teksta naveli smo izvore — od prijevoda dostupna je biografija Imama u izdanju El-Kalema. Spremamo i posebnu stranicu s preporučenom literaturom."
+        }
+      ]
+    }
+  ],
+  "post-ramazana-hanefijske-specificnosti": [
+    {
+      "id": "c6",
+      "author": "Merjem Zukić",
+      "date": "2026-03-02",
+      "text": "Hvala na odgovorima o injekcijama i inhalatorima — baš zbog toga sam prošlog ramazana imala nedoumica. Sad mi je mnogo jasnije.",
+      "replies": []
+    }
+  ],
+  "temelji-hanefijskog-usula": [
+    {
+      "id": "c7",
+      "author": "Adnan Mehmedović",
+      "date": "2026-06-08",
+      "text": "Odličan pregled. Molim vas, možete li u nekom od narednih tekstova detaljnije obraditi istihsan s primjerima iz savremenog života?",
+      "replies": []
+    },
+    {
+      "id": "c8",
+      "author": "Sumeja Alić",
+      "date": "2026-06-12",
+      "text": "Kao studentici FIN-a, ovaj tekst mi je došao kao odlična skripta za ispit iz usuli-fikha. Podijelila sam ga s kolegama.",
+      "replies": []
+    }
+  ]
+}
