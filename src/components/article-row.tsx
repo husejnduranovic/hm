@@ -1,7 +1,8 @@
-import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
-import { formatDateBs, tf } from "@/lib/utils";
-import type { ArticleMeta } from "@/lib/content";
+import Link from "next/link"
+import { ArrowUpRight } from "lucide-react"
+import { formatDateBs } from "@/lib/utils"
+import { tf } from "@/lib/i18n"
+import type { ArticleMeta } from "@/lib/content"
 
 export function ArticleRow({ article }: { article: ArticleMeta }) {
   return (
@@ -16,7 +17,10 @@ export function ArticleRow({ article }: { article: ArticleMeta }) {
       <span className="min-w-0">
         <span className="flex items-center gap-2 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-gold-600">
           {article.categoryName}
-          <span aria-hidden className="hidden size-1 rounded-full bg-line sm:inline-block" />
+          <span
+            aria-hidden
+            className="hidden size-1 rounded-full bg-line sm:inline-block"
+          />
           <span className="hidden font-normal normal-case tracking-normal text-ink-faint sm:inline">
             {tf("article.readingTime", { n: article.readingMinutes })}
           </span>
@@ -34,5 +38,5 @@ export function ArticleRow({ article }: { article: ArticleMeta }) {
         aria-hidden
       />
     </Link>
-  );
+  )
 }

@@ -1,23 +1,24 @@
-import Link from "next/link";
-import { Facebook, Instagram, Mail, MapPin, Youtube } from "lucide-react";
-import { t } from "@/lib/i18n";
-import { siteConfig } from "@/data/site";
-import { Logo } from "@/components/logo";
-import { GeoPattern, StarGlyph } from "@/components/pattern";
-import { NewsletterForm } from "@/components/newsletter-form";
+import Link from "next/link"
+import { Mail, MapPin } from "lucide-react"
+import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/brand-icons"
+import { t } from "@/lib/i18n"
+import { siteConfig } from "@/data/site"
+import { Logo } from "@/components/logo"
+import { GeoPattern, StarGlyph } from "@/components/pattern"
+import { NewsletterForm } from "@/components/newsletter-form"
 
 const SOCIALS = [
-  { icon: Facebook, label: "Facebook", href: siteConfig.social.facebook },
-  { icon: Instagram, label: "Instagram", href: siteConfig.social.instagram },
-  { icon: Youtube, label: "YouTube", href: siteConfig.social.youtube },
-];
+  { icon: FacebookIcon, label: "Facebook", href: siteConfig.social.facebook },
+  { icon: InstagramIcon, label: "Instagram", href: siteConfig.social.instagram },
+  { icon: YoutubeIcon, label: "YouTube", href: siteConfig.social.youtube },
+]
 
 function FooterCol({
   title,
   links,
 }: {
-  title: string;
-  links: Array<{ href: string; label: string }>;
+  title: string
+  links: Array<{ href: string; label: string }>
 }) {
   return (
     <div>
@@ -37,13 +38,20 @@ function FooterCol({
         ))}
       </ul>
     </div>
-  );
+  )
 }
 
-export function SiteFooter({ categories }: { categories: Array<{ slug: string; name: string }> }) {
+export function SiteFooter({
+  categories,
+}: {
+  categories: Array<{ slug: string; name: string }>
+}) {
   return (
     <footer className="relative overflow-hidden bg-forest-950 text-paper">
-      <GeoPattern id="footer-pat" className="absolute inset-0 text-gold-300 opacity-[0.035]" />
+      <GeoPattern
+        id="footer-pat"
+        className="absolute inset-0 text-gold-300 opacity-[0.035]"
+      />
 
       <div className="container-site relative">
         {/* Bilten */}
@@ -110,7 +118,10 @@ export function SiteFooter({ categories }: { categories: Array<{ slug: string; n
             </h3>
             <ul className="mt-4 space-y-3 text-sm text-paper/60">
               <li className="flex items-center gap-2.5">
-                <Mail className="size-4 shrink-0 text-gold-300/70" aria-hidden />
+                <Mail
+                  className="size-4 shrink-0 text-gold-300/70"
+                  aria-hidden
+                />
                 <a
                   href={`mailto:${siteConfig.email}`}
                   className="transition-colors hover:text-paper"
@@ -119,7 +130,10 @@ export function SiteFooter({ categories }: { categories: Array<{ slug: string; n
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
-                <MapPin className="size-4 shrink-0 text-gold-300/70" aria-hidden />
+                <MapPin
+                  className="size-4 shrink-0 text-gold-300/70"
+                  aria-hidden
+                />
                 {t("footer.location")}
               </li>
             </ul>
@@ -131,7 +145,9 @@ export function SiteFooter({ categories }: { categories: Array<{ slug: string; n
           <p>
             © {new Date().getFullYear()} {siteConfig.name}. {t("footer.rights")}
           </p>
-          <p className="hidden text-paper/35 lg:block">{t("footer.madeWith")}</p>
+          <p className="hidden text-paper/35 lg:block">
+            {t("footer.madeWith")}
+          </p>
           <div className="flex gap-5">
             <a href="#" className="transition-colors hover:text-paper/80">
               {t("footer.privacy")}
@@ -143,5 +159,5 @@ export function SiteFooter({ categories }: { categories: Array<{ slug: string; n
         </div>
       </div>
     </footer>
-  );
+  )
 }

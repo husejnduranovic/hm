@@ -1,16 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { Check, Facebook, Link2 } from "lucide-react";
+import { Check, Link2 } from "lucide-react";
+import { FacebookIcon, XIcon } from "@/components/brand-icons";
 import { t } from "@/lib/i18n";
-
-function XLogo({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden>
-      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644Z" />
-    </svg>
-  );
-}
 
 const CIRCLE =
   "grid size-10 place-items-center rounded-full text-ink-soft ring-1 ring-line transition-all hover:text-forest-800 hover:ring-gold-400";
@@ -52,14 +45,14 @@ export function ShareButtons({ title }: { title: string }) {
         aria-label="Podijeli na Facebooku"
         className={CIRCLE}
       >
-        <Facebook className="size-4" aria-hidden />
+        <FacebookIcon className="size-4" />
       </button>
       <button
         onClick={() => openShare("https://x.com/intent/post?url={u}&text={t}")}
         aria-label="Podijeli na X-u"
         className={CIRCLE}
       >
-        <XLogo className="size-3.5" />
+        <XIcon className="size-3.5" />
       </button>
       <span
         aria-live="polite"

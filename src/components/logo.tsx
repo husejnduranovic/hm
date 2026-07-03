@@ -44,7 +44,7 @@ export function Logo({ dark = false, className }: { dark?: boolean; className?: 
         </span>
         <span
           className={cn(
-            "mt-1 text-[0.6rem] font-medium uppercase tracking-[0.28em]",
+            "mt-1 hidden text-[0.6rem] font-medium uppercase tracking-[0.28em] sm:block",
             dark ? "text-paper/50" : "text-ink-faint",
           )}
         >

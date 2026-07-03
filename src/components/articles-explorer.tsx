@@ -1,12 +1,12 @@
-"use client";
+"use client"
 
-import { useEffect, useMemo, useState } from "react";
-import { Search, X } from "lucide-react";
-import { cn, normalizeText, pluralBs, tf } from "@/lib/utils";
-import { t } from "@/lib/i18n";
-import type { ArticleMeta, CategoryWithCount } from "@/lib/content";
-import { ArticleCard } from "@/components/article-card";
-import { StarGlyph } from "@/components/pattern";
+import { useEffect, useMemo, useState } from "react"
+import { Search, X } from "lucide-react"
+import { cn, normalizeText, pluralBs } from "@/lib/utils"
+import { t, tf } from "@/lib/i18n"
+import type { ArticleMeta, CategoryWithCount } from "@/lib/content"
+import { ArticleCard } from "@/components/article-card"
+import { StarGlyph } from "@/components/pattern"
 
 function chipCls(active: boolean) {
   return cn(
@@ -14,7 +14,7 @@ function chipCls(active: boolean) {
     active
       ? "bg-forest-800 text-paper ring-forest-800"
       : "bg-paper-card text-ink-soft ring-line hover:text-ink hover:ring-gold-400",
-  );
+  )
 }
 
 export function ArticlesExplorer({
@@ -23,48 +23,48 @@ export function ArticlesExplorer({
   initialQuery = "",
   initialCategory = "",
 }: {
-  articles: ArticleMeta[];
-  categories: CategoryWithCount[];
-  initialQuery?: string;
-  initialCategory?: string;
+  articles: ArticleMeta[]
+  categories: CategoryWithCount[]
+  initialQuery?: string
+  initialCategory?: string
 }) {
-  const [query, setQuery] = useState(initialQuery);
-  const [category, setCategory] = useState(initialCategory);
+  const [query, setQuery] = useState(initialQuery)
+  const [category, setCategory] = useState(initialCategory)
 
   // URL uvijek odražava aktivne filtere (dijeljiv link), bez ponovnog renderiranja rute
   useEffect(() => {
-    const params = new URLSearchParams();
-    if (query.trim()) params.set("q", query.trim());
-    if (category) params.set("kategorija", category);
-    const qs = params.toString();
-    window.history.replaceState(null, "", qs ? `/tekstovi?${qs}` : "/tekstovi");
-  }, [query, category]);
+    const params = new URLSearchParams()
+    if (query.trim()) params.set("q", query.trim())
+    if (category) params.set("kategorija", category)
+    const qs = params.toString()
+    window.history.replaceState(null, "", qs ? `/tekstovi?${qs}` : "/tekstovi")
+  }, [query, category])
 
   const filtered = useMemo(() => {
-    const q = normalizeText(query.trim());
+    const q = normalizeText(query.trim())
     return articles.filter((a) => {
-      if (category && a.category !== category) return false;
-      if (!q) return true;
+      if (category && a.category !== category) return false
+      if (!q) return true
       const haystack = normalizeText(
         `${a.title} ${a.excerpt} ${a.categoryName} ${a.tags.join(" ")}`,
-      );
-      return haystack.includes(q);
-    });
-  }, [articles, query, category]);
+      )
+      return haystack.includes(q)
+    })
+  }, [articles, query, category])
 
-  const hasFilters = Boolean(query.trim() || category);
-  const n = filtered.length;
+  const hasFilters = Boolean(query.trim() || category)
+  const n = filtered.length
   const resultText = pluralBs(
     n,
     tf("listing.resultOne", { n }),
     tf("listing.resultFew", { n }),
     tf("listing.resultMany", { n }),
-  );
+  )
 
   const reset = () => {
-    setQuery("");
-    setCategory("");
-  };
+    setQuery("")
+    setCategory("")
+  }
 
   return (
     <div className="container-site pb-24 pt-10">
@@ -91,8 +91,15 @@ export function ArticlesExplorer({
         )}
       </div>
 
-      <div className="mt-6 flex flex-wrap gap-2" role="group" aria-label={t("footer.categories")}>
-        <button onClick={() => setCategory("")} className={chipCls(category === "")}>
+      <div
+        className="mt-6 flex flex-wrap gap-2"
+        role="group"
+        aria-label={t("footer.categories")}
+      >
+        <button
+          onClick={() => setCategory("")}
+          className={chipCls(category === "")}
+        >
           {t("listing.all")}
         </button>
         {categories.map((c) => (
@@ -102,7 +109,12 @@ export function ArticlesExplorer({
             className={chipCls(category === c.slug)}
           >
             {c.name}
-            <span className={cn("ml-1.5", category === c.slug ? "text-paper/60" : "text-ink-faint")}>
+            <span
+              className={cn(
+                "ml-1.5",
+                category === c.slug ? "text-paper/60" : "text-ink-faint",
+              )}
+            >
               {c.count}
             </span>
           </button>
@@ -146,5 +158,5 @@ export function ArticlesExplorer({
         </div>
       )}
     </div>
-  );
+  )
 }

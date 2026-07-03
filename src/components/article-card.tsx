@@ -1,24 +1,26 @@
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
-import { cn, formatDateBs, tf } from "@/lib/utils";
-import { t } from "@/lib/i18n";
-import type { ArticleMeta } from "@/lib/content";
-import categoriesData from "@/data/categories.json";
-import { ArticleCover } from "@/components/covers";
+import Link from "next/link"
+import { ArrowRight } from "lucide-react"
+import { cn, formatDateBs } from "@/lib/utils"
+import { t, tf } from "@/lib/i18n"
+import type { ArticleMeta } from "@/lib/content"
+import categoriesData from "@/data/categories.json"
+import { ArticleCover } from "@/components/covers"
 
 function categoryColors(slug: string): { color: string; colorDeep: string } {
-  const cat = categoriesData.find((c) => c.slug === slug);
-  return cat ? { color: cat.color, colorDeep: cat.colorDeep } : { color: "#1b6e52", colorDeep: "#0e4534" };
+  const cat = categoriesData.find((c) => c.slug === slug)
+  return cat
+    ? { color: cat.color, colorDeep: cat.colorDeep }
+    : { color: "#1b6e52", colorDeep: "#0e4534" }
 }
 
 export function ArticleCard({
   article,
   className,
 }: {
-  article: ArticleMeta;
-  className?: string;
+  article: ArticleMeta
+  className?: string
 }) {
-  const { color, colorDeep } = categoryColors(article.category);
+  const { color, colorDeep } = categoryColors(article.category)
 
   return (
     <article
@@ -43,7 +45,9 @@ export function ArticleCard({
         <p className="flex items-center gap-2.5 text-xs text-ink-faint">
           <span>{formatDateBs(article.date)}</span>
           <span aria-hidden className="size-1 rounded-full bg-gold-500" />
-          <span>{tf("article.readingTime", { n: article.readingMinutes })}</span>
+          <span>
+            {tf("article.readingTime", { n: article.readingMinutes })}
+          </span>
         </p>
 
         <h3 className="font-display text-[1.28rem] font-medium leading-snug">
@@ -68,5 +72,5 @@ export function ArticleCard({
         </p>
       </div>
     </article>
-  );
+  )
 }

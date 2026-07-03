@@ -1,6 +1,6 @@
 # WORK LOG — Hanefijski mezheb demo
 
-## Status: build in progress
+## Status: v1 demo complete — ready for client review
 
 ### Done
 - [x] Studied reference (darultahqiq.com): fetched HTML structure + headless screenshot.
@@ -25,14 +25,23 @@
       /video, /o-mezhebu (facts, principles, timeline, FAQ), custom 404.
 - [x] SEO: metadata + OG tags (bs_BA), generated OG images (site + per-article,
       diacritic-safe fonts), sitemap.ts, robots.ts, favicon (icon.svg).
+- [x] `npm run build` green: 32 static pages (11 articles + 11 OG images + core).
+- [x] Visual QA round 1 (scripts/shoot.mjs → 40+ screenshots, desktop/mobile/
+      interactions). Verified: hero/arch art, covers, quote band, search dialog,
+      comment optimistic submit + "čeka odobrenje", video overlay, mobile menu,
+      OG images with č/ć/š diacritics, TOC active state, reading progress.
+- [x] QA fixes: prose ul/ol bullets restored (Tailwind preflight strips list-style),
+      logo tagline hidden <sm (wrapped in mobile header), devIndicators off.
+      Build errors fixed along the way: tf imported from wrong module (4 files),
+      lucide-react removed brand icons → local brand-icons.tsx.
 
-### In progress
-- [ ] First full build + visual QA loop via screenshots (scripts/shoot.mjs).
+### Next (when client approves)
+- Drop the 10 real texts into content/tekstovi/ (same frontmatter).
+- Real video embeds (VideoShowcase overlay → player, ids in videos.json).
+- Comments API (lib/comments.ts seam ready), newsletter service.
+- Set NEXT_PUBLIC_SITE_URL to the real domain; deploy (Vercel or Node host).
 
-### Next
-- [ ] Fix whatever QA reveals (spacing/contrast/geometry).
-- [ ] Final commit, screenshot gallery artifact for client review.
-
-### Later (post-approval, out of scope now)
-- Real 10 texts (drop into content/tekstovi/), real video embeds, comments API +
-  moderation, newsletter service, real domain in NEXT_PUBLIC_SITE_URL, analytics.
+### Open questions for client
+- Final brand name/wordmark ("Hanefijski mezheb" is a working title).
+- Real domain (placeholder: hanefijski-mezheb.ba).
+- Social profile links for footer icons.
