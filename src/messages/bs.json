@@ -76,7 +76,16 @@
     "emptyText": "Nismo pronašli nijedan tekst koji odgovara vašem upitu.",
     "resultOne": "Pronađen {n} tekst",
     "resultFew": "Pronađena {n} teksta",
-    "resultMany": "Pronađeno {n} tekstova"
+    "resultMany": "Pronađeno {n} tekstova",
+    "leadKicker": "Najnovije u biblioteci",
+    "archiveKicker": "Hronološki pregled",
+    "archiveTitle": "Arhiva tekstova",
+    "archiveDesc": "Ostali tekstovi iz biblioteke, poredani od novijih prema starijim.",
+    "countOne": "{n} tekst",
+    "countFew": "{n} teksta",
+    "countMany": "{n} tekstova",
+    "lastPublished": "Posljednji tekst: {d}",
+    "categoryLabel": "Tematska cjelina"
   },
   "article": {
     "authorLabel": "Autor",
@@ -93,7 +102,8 @@
     "prev": "Prethodni tekst",
     "next": "Sljedeći tekst",
     "tagsLabel": "Oznake",
-    "authorBioFallback": "Saradnik redakcije i autor tekstova iz oblasti hanefijskog fikha."
+    "authorBioFallback": "Saradnik redakcije i autor tekstova iz oblasti hanefijskog fikha.",
+    "backToTop": "Na vrh stranice"
   },
   "comments": {
     "title": "Komentari",

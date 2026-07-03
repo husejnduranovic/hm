@@ -25,7 +25,7 @@ export function ArticleCard({
   return (
     <article
       className={cn(
-        "group relative flex flex-col overflow-hidden rounded-2xl bg-paper-card shadow-card ring-1 ring-line transition-all duration-300 hover:-translate-y-1 hover:shadow-lift",
+        "group relative flex flex-col overflow-hidden rounded-2xl bg-paper-card shadow-card ring-1 ring-line transition-all duration-300 hover:-translate-y-1 hover:shadow-lift hover:ring-gold-300",
         className,
       )}
     >
@@ -42,7 +42,7 @@ export function ArticleCard({
       </div>
 
       <div className="flex flex-1 flex-col gap-3 p-6">
-        <p className="flex items-center gap-2.5 text-xs text-ink-faint">
+        <p className="flex items-center gap-2.5 text-xs tabular-nums text-ink-faint">
           <span>{formatDateBs(article.date)}</span>
           <span aria-hidden className="size-1 rounded-full bg-gold-500" />
           <span>

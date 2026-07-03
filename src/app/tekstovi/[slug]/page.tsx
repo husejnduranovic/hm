@@ -21,6 +21,8 @@ import { ArticleCover } from "@/components/covers";
 import { ArticleCard } from "@/components/article-card";
 import { Prose } from "@/components/prose";
 import { TocRail } from "@/components/toc-rail";
+import { TocMobile } from "@/components/toc-mobile";
+import { BackToTop } from "@/components/back-to-top";
 import { ShareButtons } from "@/components/share-buttons";
 import { ReadingProgress } from "@/components/reading-progress";
 import { CommentsSection } from "@/components/comments-section";
@@ -107,6 +109,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
   return (
     <>
       <ReadingProgress />
+      <BackToTop />
       <article>
         {/* Zaglavlje teksta */}
         <header className="relative overflow-hidden border-b border-line bg-paper-deep/70">
@@ -177,6 +180,11 @@ export default async function ArticlePage({ params }: { params: Params }) {
         {/* Tijelo + bočna traka */}
         <div className="container-site grid gap-14 pb-20 pt-12 md:pt-16 lg:grid-cols-[minmax(0,1fr)_16rem] lg:gap-16">
           <div className="max-w-[42rem]">
+            {toc.length >= 2 && (
+              <div className="mb-9">
+                <TocMobile items={toc} />
+              </div>
+            )}
             <Prose markdown={article.body} />
 
             {article.tags.length > 0 && (
@@ -220,7 +228,12 @@ export default async function ArticlePage({ params }: { params: Params }) {
 
           <aside className="hidden lg:block">
             <div className="sticky top-24 space-y-10">
-              {toc.length >= 2 && <TocRail items={toc} />}
+              {toc.length >= 2 && (
+                // Dugi tekstovi: sadržaj se skrola unutar trake, dio za dijeljenje ostaje vidljiv
+                <div className="scrollbar-slim -mr-2 max-h-[52vh] overflow-y-auto overscroll-contain pr-2">
+                  <TocRail items={toc} />
+                </div>
+              )}
               <div>
                 <p className="kicker flex items-center gap-2 text-gold-600">
                   <StarGlyph className="size-3" />

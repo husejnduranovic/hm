@@ -25,6 +25,14 @@ export function formatDateBs(iso: string): string {
   return `${d.getDate()}. ${MONTHS_BS[d.getMonth()]} ${d.getFullYear()}.`;
 }
 
+/** "2026-05-18" → "Maj 2026." — naslov mjeseca u arhivi. */
+export function formatMonthYearBs(iso: string): string {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return iso;
+  const month = MONTHS_BS[d.getMonth()];
+  return `${month[0].toUpperCase()}${month.slice(1)} ${d.getFullYear()}.`;
+}
+
 /** Bosanska množina: pluralBs(3, "tekst", "teksta", "tekstova") → "teksta" */
 export function pluralBs(n: number, one: string, few: string, many: string): string {
   const m100 = Math.abs(n) % 100;

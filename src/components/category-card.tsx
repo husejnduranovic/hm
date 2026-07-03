@@ -1,29 +1,10 @@
 import Link from "next/link";
-import {
-  ArrowUpRight,
-  Compass,
-  Landmark,
-  MessagesSquare,
-  Moon,
-  Scale,
-  Users,
-  type LucideIcon,
-} from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { pluralBs } from "@/lib/utils";
 import type { CategoryWithCount } from "@/lib/content";
-
-const ICONS: Record<string, LucideIcon> = {
-  moon: Moon,
-  scale: Scale,
-  users: Users,
-  landmark: Landmark,
-  compass: Compass,
-  messages: MessagesSquare,
-};
+import { CategoryIcon } from "@/components/category-icon";
 
 export function CategoryCard({ category }: { category: CategoryWithCount }) {
-  const Icon = ICONS[category.icon] ?? Compass;
-
   return (
     <Link
       href={`/tekstovi?kategorija=${category.slug}`}
@@ -33,7 +14,7 @@ export function CategoryCard({ category }: { category: CategoryWithCount }) {
         className="inline-flex size-11 items-center justify-center rounded-xl transition-transform duration-300 group-hover:scale-105"
         style={{ backgroundColor: `${category.color}1c`, color: category.colorDeep }}
       >
-        <Icon className="size-5" aria-hidden />
+        <CategoryIcon icon={category.icon} className="size-5" />
       </span>
 
       <span className="flex items-start justify-between gap-3">
